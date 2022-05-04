@@ -1,4 +1,16 @@
+import Header from "./header.js";
+import Main from "./main.js";
+import Footer from "./footer.js";
+
 function App() {
+  return (
+    <div className="App">
+      <Footer />
+    </div>
+  );
+}
+
+/* function App() {
   return (
     <div className="App">
       <header>
@@ -46,7 +58,7 @@ function App() {
         <p className="country">United Kingdom</p>
       </footer>
     </div>
-  )
-}
+  );
+} */
 
-export default App
+export default App;
